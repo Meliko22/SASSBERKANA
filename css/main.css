@@ -1,0 +1,113 @@
+header img {
+  width: 200px;
+  height: 200px; }
+
+aside h3 {
+  align-content: center;
+  align-items: center;
+  background-color: #5ab34e;
+  background: #8fab91;
+  background: radial-gradient(circle, #8fab91 18%, #075e41 47%, rgba(127, 181, 158, 0.0592612) 65%, #04a8a6 82%, #03b7c4 88%, #02c3dc 93%, #01caeb 96%, #00d4ff 100%);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  width: 200px;
+  height: 70px;
+  justify-items: center;
+  border-radius: 30%;
+  animation-name: descuento;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  position: relative; }
+
+header nav, footer, main, body {
+  background-color: #23212a; }
+
+.carousel {
+  width: 300px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+main section h3, footer {
+  color: aliceblue; }
+
+@keyframes descuento {
+  0% {
+    left: 0px;
+    top: 0px; }
+  25% {
+    left: 3px;
+    top: 3px; }
+  50% {
+    left: 5px;
+    top: 5px; }
+  75% {
+    left: 3x;
+    top: 3px; }
+  100% {
+    left: 0px;
+    top: 0px; } }
+
+table {
+  background-color: #7fffd4;
+  border: #000000;
+  border-style: double; }
+
+table th {
+  padding: 30px 30px 30px 30px;
+  font-size: 50px;
+  font-family: 'Quicksand', sans-serif; }
+
+table td {
+  font-size: 40px;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center; }
+
+table img {
+  width: 250px;
+  height: 250px; }
+
+.formulario {
+  background-image: url("../img/aurora.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 200px 200px 200px 200px;
+  color: #fffefd;
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif; }
+
+.formulario form input, textarea {
+  color: #050505;
+  font-size: 15px;
+  font-family: 'Quicksand', sans-serif; }
+
+.mayorista div {
+  background-image: url("../img/ruta.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: auto;
+  height: 500px;
+  color: #fffefd;
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+  display: row;
+  justify-content: center; }
+
+.nosotros div {
+  background-image: url("../img/nosotros.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fffefd;
+  font-family: 'Quicksand', sans-serif;
+  width: auto;
+  height: 500px;
+  text-align: center;
+  align-content: center;
+  margin: auto; }
+
+.nosotros div p {
+  font-size: 100vh 100vw; }
