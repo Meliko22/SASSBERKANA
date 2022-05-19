@@ -3,28 +3,16 @@
 @import "_footer";
 
 
-aside {
-        h3{
-            align-content: center;
-            align-items: center;
-            background-color: #5ab34e;
-            background: rgb(143,171,145);
-            background: radial-gradient(circle, rgba(143,171,145,1) 18%, rgba(7,94,65,1) 47%, rgba(127,181,158,0.05926120448179273) 65%, rgba(4,168,166,1) 82%, rgba(3,183,196,1) 88%, rgba(2,195,220,1) 93%, rgba(1,202,235,1) 96%, rgba(0,212,255,1) 100%);
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 30px;
-            width: 200px;
-            height: 70px;
-            justify-items: center;
-            border-radius: 30%;
-            animation-name: descuento;
-            animation-iteration-count: infinite;
-            animation-duration: 3s;
-            position: relative;
-           }
- }
+
 
 header nav, footer, main, body{
     background-color: $background-color-page;
+}
+
+aside img{
+  width: 100px;
+  height: 100px;
+  margin-left: 25px;
 }
 
 .carousel {
@@ -52,52 +40,20 @@ main section h3,footer{
     100%{ left: 0px; top: 0px}
 }
 
-table {
-    background-color: #7fffd4;
-    border: #000000;
-    border-style: double;
- 
-}
-
-table th {
-    padding: 30px 30px 30px 30px;
-    font-size: 50px;
-    font-family: 'Quicksand', sans-serif;
-    
-}
-
-    table td {
-
-    font-size: 40px;
-    font-family: 'Quicksand', sans-serif;
-    text-align: center;
-
-}
-    table {
-        img {
-    width: 250px;
-    height: 250px;
-            }
-    }
 .formulario {
 
     background-image: url("../img/aurora.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    padding: 200px 200px 200px 200px;
+    width: auto;
+    height: 500px;
     color: #fffefd;
-    font-size: 20px;
-    font-family: 'Quicksand', sans-serif;
+   
+
 
 }
 
-.formulario form input, textarea {
-    color: #050505;
-    font-size: 15px;
-    font-family: 'Quicksand', sans-serif;
-
-}
 
 .mayorista { 
         div {
@@ -141,4 +97,24 @@ table th {
                     }
                 }
             }
+
+aside ul{
+background-color: #fffefd;
+}
+
+
+$redes: ( 
+    facebook: #0000ff,
+    gmail: #6767ef,
+    instagram: violet,
+);
+
+@each $red, $color in $redes {
+    .red-#{$red} {
+        color: $color;
+    }
+    
+}
+
+
 
